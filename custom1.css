@@ -1,0 +1,59 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Tilt Warp', cursive;
+  padding: 0;
+  margin: 0;
+
+  font-size: 1em;
+}
+
+body{
+    background-color: #04AA6D;
+    display: flex;
+    justify-content: center;
+    
+}
+form {
+    border: 3px solid #0d0202;
+    width: 30%;
+    border-radius: 2%;
+  }
+  
+
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+  }
+  
+
+  button {
+    background-color: #afb2b1;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .container {
+    padding: 16px;
+  }
+  
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  
+  

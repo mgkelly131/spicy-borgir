@@ -1,0 +1,97 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Tilt Warp', cursive;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px black;
+  position: fixed;
+  width: 100%;
+  background-color: #040D12;
+  height: 50px;
+
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+}
+
+nav a{
+  padding:0 20px;
+  text-decoration: none;
+  color: #93B1A6;
+  font-size: 25px;
+  transition: ease 1s;
+
+}
+
+nav a:hover{
+
+  color: #183D3D;
+}
+
+
+
+body{
+	background-color: #04AA6D;
+}
+form{
+	border: solid 3px #010101;
+	border-radius: 2%;
+	width: 40%;
+}
+
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color: #b3bbb8;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 50%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.container {
+  padding: 20px;
+  
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
